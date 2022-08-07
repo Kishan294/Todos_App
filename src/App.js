@@ -62,13 +62,13 @@ function App() {
     <Router>
       <Header title="MyTodos•" searchBar={false} /> 
       <Routes>
-          <Route exact path="/" element={
+          <Route exact path="Todos_App/" element={
             <>
             <AddTodo addTodo={addTodo} />
             <Todos todos={todos} onDelete={onDelete} /> 
             </>
           }/>
-          <Route path="/about" element={<About />} />
+          <Route path="Todos_App/about" element={<About />} />
         </Routes> 
       <Footer />
     </Router>
